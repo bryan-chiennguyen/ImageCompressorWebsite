@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Image Compressor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <h1 style="text-align: center;">Image Compressor</h1>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+
+    <div id="main-content">
+        <div>
+            <button type="button" id="Image-Compressor-button">Image Compressor</button>
+            <button type="button" id="Image-Decompressor-button">Image Decompressor</button> 
+        </div>
+        <br>
+        <div id="input-area">
+            <form id="submit-form" action="ProcessServlet" method="POST">
+                <label for="compressor-input">Image Compressor Input (consists of 2 characters): </label>
+                <br>
+                <textarea class="text-area" id="compressor-input" rows="20" cols="60" name="compress-input"></textarea>
+                <br>
+                <button type="submit" id="submit-button">Convert</button>
+            </form>
+        </div>
+    </div>
+</body>

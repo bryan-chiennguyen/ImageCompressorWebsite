@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2020, 11:51:42 PM
+    Author     : Admin
+*/
+
+body {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#Image-Compressor-button {
+    color: black;
+    background-color: white;
+}
+
+#Image-Decompressor-button {
+    color: black;
+    background-color: white;
+}
+
+#submit-form {
+    text-align: center;
+}
+#submit-button {
+    text-align: center;
+}
+
+#second-part {
+    text-align: center;
+}
+.text-area {
+    
+}
